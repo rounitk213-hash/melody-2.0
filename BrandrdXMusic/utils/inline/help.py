@@ -4,7 +4,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from BrandrdXMusic import app
 
-    
 
 def help_pannel(_, START: Union[bool, int] = None):
     first = [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=f"close")]
@@ -16,7 +15,8 @@ def help_pannel(_, START: Union[bool, int] = None):
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
             callback_data=f"settingsback_helper",
-        ),InlineKeyboardButton(
+        ),
+        InlineKeyboardButton(
             text=_["NEXT_PAGE"],
             callback_data=f"mbot_cb",
         ),
