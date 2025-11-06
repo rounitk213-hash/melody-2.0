@@ -136,7 +136,7 @@ async def start_pm(client, message: Message, _):
         await m.delete()
         await message.reply_photo(
             photo=chat_photo,
-            caption=random.choice(AMOP).format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
+            caption=random.choice(AMOP).format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
         if await is_on_off(config.LOG):
