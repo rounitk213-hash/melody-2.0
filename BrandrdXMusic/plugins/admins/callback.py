@@ -442,13 +442,9 @@ async def markup_timer():
 asyncio.create_task(markup_timer())
 
 
-
 # ======================================================
 # 📸 Groups / Channels Caption List (Image + Links + Buttons)
 # ======================================================
-
-from pyrogram.types import CallbackQuery,
-
 # --- Custom Image Links ---
 GROUP_IMAGE = "https://files.catbox.moe/3zc6ro.jpg"
 CHANNEL_IMAGE = "https://files.catbox.moe/3zc6ro.jpg"
