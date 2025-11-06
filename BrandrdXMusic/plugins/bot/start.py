@@ -20,7 +20,7 @@ from BrandrdXMusic.utils.database import (
 from BrandrdXMusic.utils.decorators.language import LanguageStart
 from BrandrdXMusic.utils.formatters import get_readable_time
 from BrandrdXMusic.utils.inline import help_pannel, private_panel, start_panel
-from config import BANNED_USERS
+from config import BANNED_USERS, AMOP
 from strings import get_string
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
@@ -135,7 +135,7 @@ async def start_pm(client, message: Message, _):
         await m.delete()
         await message.reply_photo(
             photo=chat_photo,
-            caption=_["start_2"].format(message.from_user.mention, app.mention),
+            caption=random.choice(AMOP).format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
             reply_markup=InlineKeyboardMarkup(out),
         )
         if await is_on_off(config.LOG):
