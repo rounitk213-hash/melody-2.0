@@ -1,7 +1,6 @@
-import asyncio
-
+import asyncio
 from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 
 from BrandrdXMusic import YouTube, app
 from BrandrdXMusic.core.call import Hotty
