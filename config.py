@@ -8,22 +8,22 @@ from pyrogram import filters
 load_dotenv()
 
 # ✅ my.telegram.org/apps se lo
-API_ID = int(getenv("API_ID", "22091901"))
-API_HASH = getenv("API_HASH", "54b0cd5fb47a40265b197f1a110b20b8")
+API_ID = int(getenv("API_ID", "33366736"))
+API_HASH = getenv("API_HASH", "3cdd9d57996df6a3aa8f551913bc1fd9")
 
 # ✅ @BotFather se bot token
-BOT_TOKEN = getenv("BOT_TOKEN", "8032338023:AAHvF1meONrnbAgMkkMTXQuxqVCu7PomcVU")
+BOT_TOKEN = getenv("BOT_TOKEN", "8150846526:AAETRwCp9_wq3W7Yo6clYmGbZMup6Y4VpT4")
 
 # ✅ MongoDB URI (cloud.mongodb.com)
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "✨𝓜𝓮𝓵𝓸𝓭𝔂𝓧✨")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "eijoewfjewifj")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1003189576237"))
-OWNER_ID = int(getenv("OWNER_ID", "5811783004"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003596116023"))
+OWNER_ID = int(getenv("OWNER_ID", "8189688996"))
 LOG = bool(getenv("LOG", "True"))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -38,7 +38,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shadowmonarchjii")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+md2s35B2X1wxN2M9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+BwsESIsQ4EcxNTg9")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", "False"))
 AUTO_GCAST = getenv("AUTO_GCAST", "False")
@@ -55,8 +55,8 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "2000"
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 
-STRING1 = getenv("STRING_SESSION", "BQHtwy4AGGA4MHPmIjqksdceV3VZ9geDXnFRldvgPR1rbzrtiO2vuI7BYPV4GFSpIzeXmP86w9UVvJUQ7PtbSZofHnFzh_Jnc9YQtr7IDqkjNEXTSN6XkVn7aUAjpdFbIlZrHXwoVrVevopapdle_e134Ug-AhtzfwvmKkFb6cZ9tGuudsmLf2c6uBG-e1PkGKebj7biojgj5JTZ2bSGbKw9R1Td0lTFXGbJqomsmAtCKS_-iM900Q6r1RaNyY8IKv_lr8I7KUSSlmK-sLqXZHyGbyja6ezSUxGvLPzAdp6zg17Lsyft4a4R2f1FycaxjNUt5-_db8g5qcN3HXXpTm6efusOtwAAAAHwB2FsAA")
-STRING2 = getenv("STRING_SESSION2", "BQGzDsUAZa04ZJqK2K2Lpsw8jKAsGzMdJEKxjpRjck3pQEY_UGWvSArZq0IZ8NiJNXifmSatXLT7I-RzPM-ADuyDqLeXb8CMAKgLO-cic1xWASnIKx2WlcnXahIq_7KebyGJwctj_uSoPyY_5qpv3ozxrIhNED8m5JL9rJc_4yk7n447Op-Ppqpqwb0oSGjfsfB2qC5ViYu6MDZco5adk4BdeL7Ze6wsXfJX-NwXDMvYEpQNzDr_fyFgdmPx6fHGW-D4XfhgHdiR-OWgR7FkZCRzCUXzm1PAs8IkLGF8ka6XP4N_kd2H3CiI47pGdccmSv9Nirb0nGh7eH1qDbDsIfvIeu0dlgAAAAHKFlg8AA")
+STRING1 = getenv("STRING_SESSION", "BQJDvkkABkFG0XmX9jG--bCYRDFxk2JowpFgV2yJ2G7f6Y6pBnNyBtschxyrX3uXQ902ZxnyasJwyla3Eq0-gal5oyX77LlZs9JFeaCJ42Q8jQJnhPAuhtmJtaQOg-pM_O0yNLbQuJXriRjc1bmhI-q7aBDdHh6edQm6vT3Sy0ZV_ZFy4y_G_nbGVeiu8U78_zjj21wQ9N5vy_HWhj88xW1VJ6vumJGtkadFdfH3dSnW2PEUUNkklEODmqaNEMMZWPmdYzJghC_Mzd0qVNKHhRUjslkg2A6eE4APj-vOX99bhefP3-psFpCl3eqm3Ig_VWfQCusdEtVRZd9M-s6Ne0FtD1gx3AAAAAH1lpPAAA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
